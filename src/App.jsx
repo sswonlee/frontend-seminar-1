@@ -1,7 +1,6 @@
-import React from 'react';
 
 import profilepict from "./myprofilepicture.jpg";
-import UserProfile from './UserProfile.tsx';
+import UserProfile from './UserProfile.jsx';
 
 const user = {
   name: "이승원",

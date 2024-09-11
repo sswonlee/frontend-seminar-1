@@ -1,7 +1,5 @@
 import './UserProfile.css'; // We'll use this for styling
 
-import React from 'react';
-
 const UserProfile = ({ user }) => {
   return (
     <div className="profile-container">
