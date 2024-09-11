@@ -1,6 +1,19 @@
-import './UserProfile.css'; // We'll use this for styling
+import './UserProfile.css';
 
-const UserProfile = ({ user }) => {
+import React from 'react';
+
+interface User {
+  name: string;
+  email: string;
+  bio: string;
+  profilePicture: string;
+}
+
+interface UserProfileProps {
+  user: User;
+}
+
+const UserProfile: React.FC<UserProfileProps> = ({ user }) => {
   return (
     <div className="profile-container">
       <div className="profile-header">
