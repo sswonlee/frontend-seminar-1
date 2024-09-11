@@ -21,8 +21,12 @@ const UserProfile: React.FC<UserProfileProps> = ({ user }) => {
         <h2>{user.name}</h2>
       </div>
       <div className="profile-details">
-        <p><strong>이메일:</strong> {user.email}</p>
-        <p><strong>경력:</strong> {user.bio}</p>
+        <p>
+          <strong>이메일:</strong> {user.email}
+        </p>
+        <p>
+          <strong>경력:</strong> {user.bio}
+        </p>
       </div>
     </div>
   );
